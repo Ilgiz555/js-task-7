@@ -11,4 +11,10 @@ btn.addEventListener("click", function () {
     output.addEventListener("click", function () {
         output.remove();
     }); 
+
+    const box = document.querySelector(".box");
+    box.addEventListener("submit", function(e) {
+        e.preventDefault();
+    });
+
 });
